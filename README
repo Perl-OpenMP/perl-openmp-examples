@@ -1,0 +1,30 @@
+OpenMP & Perl & perl
+
+May 2021, Houston Perl Mongers Group meeing..
+
+[https://houston.pm.org]
+
+A short introduction to OpenMP is presented, along with two new CPAN
+modules: OpenMP::Environment and Alien::OpenMP. The topic of sequential
+consistency (and what it means to perl) will also be discussed.
+
+OpenMP Presentation used:
+
+* https://www.slideshare.net/estrabd/openmp-combined
+
+C source forked at:
+
+* https://gist.github.com/oodler577/556e3f15920ac747145f52e9153a6251
+
+Examples require:
+
+* Inline::C
+* Alien::OpenMP
+* OpenMP::Environment
+* gcc that supports "-fopenmp" (should be any 'modern' gcc)
+
+Additional examples,
+
+* https://github.com/oodler577/p5-OpenMP-Environment/tree/master/examples
+* https://github.com/oodler577/p5-OpenMP-Environment/tree/master/benchmarks
+  - uses, https://www.nas.nasa.gov/publications/npb.html
